@@ -1,0 +1,90 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+/* App.css */
+
+
+/* Table container styling */
+.TableContainer-root {
+  width: 90%;
+  margin: 0 auto;
+}
+
+/* Table styling */
+.Table-root {
+  background-color: #f9f7f7; /* Light gray background */
+  border-radius: 10px; /* Rounded corners */
+  overflow: hidden; /* Hide overflow content */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Soft shadow effect */
+}
+
+/* Table head styling */
+.TableHead-root {
+  background-color: #f0ad4e; /* Yellow background for table head */
+}
+
+/* Table body styling */
+.TableBody-root {
+  background-color: #ffffff; /* White background for table body */
+}
+
+/* Table cell styling */
+.TableCell-root {
+  color: #333333; /* Dark text color */
+}
+
+/* Button styling */
+.Button-root {
+  background-color: #f0ad4e; /* Yellow background for buttons */
+  color: #ffffff; /* White text color */
+  border-radius: 20px; /* Rounded corners */
+  padding: 8px 16px; /* Padding */
+  margin-right: 8px; /* Right margin */
+  transition: all 0.3s ease; /* Smooth transition */
+}
+
+.Button-root:hover {
+  background-color: #e7a74e; /* Darker yellow on hover */
+}
+
+/* Icon styling */
+.Icon-root {
+  font-size: 20px; /* Icon size */
+  margin-right: 8px; /* Right margin */
+}
+
